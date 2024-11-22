@@ -11,8 +11,8 @@ int main(){
 		cout<< "The roots are imaginery";
 	}
 	else{
-		r1 = (-b + sqrt(d))/2*a;
-		r2 = (-b - sqrt(d))/2*a;
+		r1 = (-b + sqrt(d))/(2*a);
+		r2 = (-b - sqrt(d))/(2*a);
 		cout<<"First root"<<r1<<endl;
 		cout<<"Second root"<<r2<<endl;
 	}
